@@ -1,0 +1,74 @@
+@charset "UTF-8";
+html,body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height:100vh ;
+    background-color: rgb(219, 205, 205);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header>h1 {
+    font-size: 8vw;
+    padding-top: 40px;
+    font-variant: small-caps;
+    
+    
+}
+header > p {
+    padding-bottom: 40px;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 4vw;
+    line-height: 2em;
+}
+section > p {
+    padding: 1em;
+}
+section.normal {
+    background-color: white;
+}
+section.img {
+    background-color: black;
+    color: white;
+    box-shadow: inset 2px 1px 1px black ;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+section.img > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 7px;
+    width: 50vw;
+
+}
+section.img#img1 {
+    background-image: url(./img/pexels-jiarong-deng-1034663.jpg);
+    background-position: center center;
+}
+section.img#img2 {
+    background-image: url(./img/pexels-kat-smith-551615.jpg);
+    background-position: center center;
+}
+footer>a {
+    color: white;
+    text-decoration: none;
+}
+footer > a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
